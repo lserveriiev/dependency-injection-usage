@@ -14,10 +14,17 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
-            <groupId>io.lenur</groupId>
-            <artifactId>di</artifactId>
+            <groupId>com.github.serveriev</groupId>
+            <artifactId>dependency-injection</artifactId>
             <version>v1.0</version>
         </dependency>
         <dependency>
